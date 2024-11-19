@@ -48,17 +48,17 @@ label {
 button {
     width: 100%;
     padding: 10px;
-    background: #6a11cb;
+    background:#6a11cb;
     border: none;
     color: white;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
+    margin-top: 3%;
 }
 
 button:hover {
-    background: #2575fc;
+    background:linear-gradient(135deg, #2575fc, #6a11cb);
 }
 
 input {
