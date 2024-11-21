@@ -10,10 +10,8 @@ document.getElementById('form-cadastro').addEventListener('submit', function(eve
         return;
     }
 
-    if (!username || !password) {
-        alert('Por favor, preencha todos os campos.');
-        return;
-    }
+    localStorage.setItem('username', username);
+    localStorage.setItem('password', password);
 
     alert('Cadastro realizado com sucesso!');
     window.location.href = 'index.html'; // Redireciona para a página inicial após o cadastro
