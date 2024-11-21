@@ -1,7 +1,7 @@
 const passwordInput = document.getElementById('password');
 const passwordDisplay = document.getElementById('password-display');
 
-// Armazena o valor real da senha em uma variável separada
+// Armazena o valor real da senha em uma variável separada, mudar os caracteres da senha. de Bolinha para asterisco 
 let realPassword = "";
 
 // Atualiza o campo real de senha e exibe os asteriscos ao digitar

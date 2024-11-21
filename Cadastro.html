@@ -8,23 +8,28 @@
 </head>
 <body>
     <div class="cadastro-container">
-        <form id="form-login" class="login-form">
-            <h1>Login</h1>
+        <form id="form-cadastro" class="login-form">
+            <h1>Cadastro</h1>
             <div class="form-group">
                 <label for="username">Usuário</label>
                 <input required type="text" id="username" name="username" placeholder="Digite seu usuário">
             </div>
             <div class="form-group">
                 <label for="password">Senha</label>
-                <input type="password" id="password" name="password" placeholder="Digite sua senha" style="display: none;">
-                <input required ="text" id="password-display" placeholder="Digite sua senha">
+                <input required type="password" id="password" name="password" placeholder="Digite sua senha">
             </div>
-            <button type="submit">Entrar</button>
+            <div class="form-group">
+                <label for="passwordagain">Confirme a Senha</label>
+                <input required type="password" id="passwordagain" name="passwordagain" placeholder="Digite sua senha novamente">
+            </div>
+            <button type="submit" style="button;">Cadastrar</button>
         </form>
         <div>
-            <a href="cadastro.html"><button style="background-color: brown;">Cadastrar</button></a>
+            <a href="index.html"><button style="background-color: rgb(247, 43, 43);">Voltar</button></a>
         </div>
     </div>
-    
+
+    <script src="./scriptCadastro.js"></script>
+
 </body>
 </html>
